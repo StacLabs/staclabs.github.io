@@ -1,20 +1,20 @@
 .page {
   --bg-main: transparent;
-  --bg-card: rgba(10, 10, 22, 0.7);
-  --bg-card-hover: rgba(15, 15, 30, 0.9);
-  --border-color: rgba(255, 255, 255, 0.1);
-  --text-primary: #F8FAFC;
+  --bg-card: rgba(30, 41, 59, 0.6);
+  --bg-card-hover: rgba(30, 41, 59, 0.85);
+  --border-color: rgba(148, 163, 184, 0.15);
+  --text-primary: #F1F5F9;
   --text-secondary: #94A3B8;
   
-  --accent-cyan: #05D5FA;
-  --accent-pink: #FF2A6D;
-  --cyan-glow: rgba(5, 213, 250, 0.2);
-  --pink-glow: rgba(255, 42, 109, 0.2);
+  --accent-cyan: #22D3EE;
+  --accent-pink: #F472B6;
+  --cyan-glow: rgba(34, 211, 238, 0.15);
+  --pink-glow: rgba(244, 114, 182, 0.15);
   
   color: var(--text-primary);
   min-height: 100vh;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  padding: 0rem 2rem 0;
+  padding: 5rem 2rem 0;
 }
 
 .hero, .sfeosSection, .featuredSection, .servicesSection, .footer {
@@ -34,12 +34,11 @@
 
 .badge {
   display: inline-block;
-  background: rgba(255, 42, 109, 0.1);
+  background: rgba(244, 114, 182, 0.1);
   color: var(--accent-pink);
-  border: 1px solid rgba(255, 42, 109, 0.4);
-  box-shadow: 0 0 15px var(--pink-glow);
+  border: 1px solid rgba(244, 114, 182, 0.3);
   padding: 0.4rem 0.85rem;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -56,7 +55,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
-  text-shadow: 0 0 40px rgba(255, 42, 109, 0.15);
 }
 
 .copy {
@@ -71,7 +69,7 @@
   width: 100%;
   max-width: 240px;
   height: auto;
-  filter: drop-shadow(0 0 30px var(--cyan-glow));
+  filter: drop-shadow(0 4px 20px rgba(34, 211, 238, 0.1));
 }
 
 .ctaGroup {
@@ -81,7 +79,7 @@
 
 .primaryBtn, .secondaryBtn {
   padding: 0.9rem 2rem;
-  border-radius: 2px;
+  border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -92,26 +90,23 @@
 
 .primaryBtn {
   background-color: var(--accent-cyan);
-  color: #030308;
-  box-shadow: 0 0 20px var(--cyan-glow);
+  color: #0B1120;
 }
 
 .primaryBtn:hover {
-  background-color: #FFFFFF;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  background-color: #67E8F9;
   transform: translateY(-2px);
 }
 
 .secondaryBtn {
-  background-color: rgba(255, 42, 109, 0.05);
+  background-color: rgba(244, 114, 182, 0.1);
   color: var(--accent-pink);
-  border: 1px solid rgba(255, 42, 109, 0.4);
+  border: 1px solid rgba(244, 114, 182, 0.3);
 }
 
 .secondaryBtn:hover {
   background-color: var(--accent-pink);
-  color: #030308;
-  box-shadow: 0 0 20px var(--pink-glow);
+  color: #0B1120;
   transform: translateY(-2px);
 }
 
@@ -146,7 +141,7 @@
   backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
   border-left: 4px solid var(--accent-cyan);
-  border-radius: 4px;
+  border-radius: 12px;
   padding: 3rem;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -156,8 +151,8 @@
 }
 
 .sfeosCard:hover {
-  box-shadow: 0 0 30px var(--cyan-glow);
-  border-color: rgba(5, 213, 250, 0.3);
+  box-shadow: 0 0 25px var(--cyan-glow);
+  border-color: rgba(34, 211, 238, 0.25);
 }
 
 .sfeosInfo h3 {
@@ -176,7 +171,6 @@
 
 .sfeosInfo strong {
   color: var(--text-primary);
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 .partnerBadges {
@@ -186,11 +180,11 @@
 }
 
 .partnerBadge {
-  background-color: rgba(5, 213, 250, 0.05);
+  background-color: rgba(34, 211, 238, 0.08);
   color: var(--accent-cyan);
-  border: 1px solid rgba(5, 213, 250, 0.3);
+  border: 1px solid rgba(34, 211, 238, 0.25);
   padding: 0.4rem 0.85rem;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -203,11 +197,11 @@
 }
 
 .featuredCard {
-  background: linear-gradient(135deg, rgba(255, 42, 109, 0.05) 0%, var(--bg-card) 100%);
+  background: linear-gradient(135deg, rgba(244, 114, 182, 0.05) 0%, var(--bg-card) 100%);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 42, 109, 0.2);
+  border: 1px solid rgba(244, 114, 182, 0.15);
   border-right: 4px solid var(--accent-pink);
-  border-radius: 4px;
+  border-radius: 12px;
   padding: 3rem;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -217,8 +211,8 @@
 }
 
 .featuredCard:hover {
-  box-shadow: 0 0 30px var(--pink-glow);
-  border-color: rgba(255, 42, 109, 0.4);
+  box-shadow: 0 0 25px var(--pink-glow);
+  border-color: rgba(244, 114, 182, 0.3);
 }
 
 .cardTag {
@@ -228,7 +222,6 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.75rem;
-  text-shadow: 0 0 10px var(--pink-glow);
 }
 
 .featuredCard h3 {
@@ -252,10 +245,10 @@
 }
 
 .techBadges span {
-  background-color: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(148, 163, 184, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.15);
   padding: 0.35rem 0.75rem;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 0.75rem;
   font-family: "Fira Code", "Courier New", monospace;
   color: var(--text-secondary);
@@ -266,7 +259,7 @@
   border: 1px solid var(--accent-cyan);
   color: var(--accent-cyan);
   padding: 1rem 1.75rem;
-  border-radius: 2px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   font-size: 0.9rem;
@@ -278,8 +271,7 @@
 
 .viewRepoBtn:hover {
   background-color: var(--accent-cyan);
-  color: #030308;
-  box-shadow: 0 0 20px var(--cyan-glow);
+  color: #0B1120;
 }
 
 .featuredCard .viewRepoBtn {
@@ -289,8 +281,7 @@
 
 .featuredCard .viewRepoBtn:hover {
   background-color: var(--accent-pink);
-  color: #030308;
-  box-shadow: 0 0 20px var(--pink-glow);
+  color: #0B1120;
 }
 
 .servicesSection {
@@ -307,7 +298,7 @@
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   padding: 3rem 2.5rem;
-  border-radius: 4px;
+  border-radius: 12px;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -321,19 +312,19 @@
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, var(--accent-cyan), transparent);
-  opacity: 0.5;
+  opacity: 0.4;
   transition: opacity 0.3s ease;
 }
 
 .serviceCard:hover {
   background-color: var(--bg-card-hover);
-  border-color: rgba(5, 213, 250, 0.3);
+  border-color: rgba(34, 211, 238, 0.25);
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .serviceCard:hover::before {
-  opacity: 1;
+  opacity: 0.8;
   background: linear-gradient(90deg, var(--accent-pink), var(--accent-cyan));
 }
 
