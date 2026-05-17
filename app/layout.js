@@ -22,20 +22,10 @@ export default function RootLayout({ children }) {
             </a>
             
             <nav className={styles.navLinks}>
-              <a 
-                href="https://github.com/stac-utils/stac-fastapi-elasticsearch-opensearch" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                SFEOS Framework
-              </a>
-              <a 
-                href="https://github.com/StacLabs/multi-tenant-catalogs" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Multi-Tenant Extension
-              </a>
+              <a href="#hero">Home</a>
+              <a href="#sfeos">SFEOS</a>
+              <a href="#featured">Extensions</a>
+              <a href="#services">Services</a>
               <a 
                 href="https://github.com/StacLabs" 
                 target="_blank" 

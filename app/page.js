@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className={styles.page}>
       {/* Hero Section */}
-      <section className={styles.hero}>
+      <section className={styles.hero} id="hero">
         <div className={styles.heroContent}>
           <h1 className={styles.headline}>
             Building practical open-source solutions that solve real problems.
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       {/* Flagship Framework Section: SFEOS */}
-      <section className={styles.sfeosSection}>
+      <section className={styles.sfeosSection} id="sfeos">
         <div className={styles.sectionHeader}>
           <span className={styles.subtext}>CORE ECOSYSTEM</span>
           <h2>stac-fastapi-elasticsearch-opensearch</h2>
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Featured Extension Section */}
-      <section className={styles.featuredSection}>
+      <section className={styles.featuredSection} id="featured">
         <div className={styles.sectionHeader}>
           <span className={styles.subtext}>LATEST EXTENSION RELEASE</span>
           <h2>Featured Ecosystem Blueprint</h2>
@@ -88,7 +88,7 @@ export default function Home() {
       </section>
 
       {/* Services Section (Typography based, no emojis) */}
-      <section className={styles.servicesSection}>
+      <section className={styles.servicesSection} id="services">
         <div className={styles.sectionHeader}>
           <span className={styles.subtext}>HOW WE PARTNER</span>
           <h2>Open Source Acceleration</h2>
