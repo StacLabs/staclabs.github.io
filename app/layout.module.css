@@ -31,7 +31,7 @@
   font-weight: 800;
   font-size: 1.35rem;
   letter-spacing: 0.05em;
-  color: #1C2B22;
+  color: #0F1F14;
   text-transform: uppercase;
 }
 
@@ -43,7 +43,7 @@
 
 .navLinks a:not(.primaryNavBtn) {
   text-decoration: none;
-  color: #5C7264;
+  color: #3D5244;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -53,25 +53,25 @@
 }
 
 .navLinks a:not(.primaryNavBtn):hover {
-  color: #2D7A4F;
+  color: #1B5A36;
 }
 
 .primaryNavBtn {
-  background-color: rgba(45, 122, 79, 0.08);
-  color: #2D7A4F !important;
+  background-color: rgba(27, 90, 54, 0.08);
+  color: #1B5A36 !important;
   padding: 0.6rem 1.25rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  border: 1px solid rgba(45, 122, 79, 0.3);
+  border: 1px solid rgba(27, 90, 54, 0.3);
   transition: all 0.3s ease !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .primaryNavBtn:hover {
-  background-color: #2D7A4F;
+  background-color: #1B5A36;
   color: #FFFFFF !important;
   transform: translateY(-1px);
 }
