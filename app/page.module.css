@@ -1,15 +1,15 @@
 .page {
   --bg-main: transparent;
-  --bg-card: rgba(30, 41, 59, 0.6);
-  --bg-card-hover: rgba(30, 41, 59, 0.85);
-  --border-color: rgba(148, 163, 184, 0.15);
-  --text-primary: #F1F5F9;
-  --text-secondary: #94A3B8;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F7FAF8;
+  --border-color: #D1DDD4;
+  --text-primary: #1C2B22;
+  --text-secondary: #5C7264;
   
-  --accent-cyan: #22D3EE;
-  --accent-pink: #F472B6;
-  --cyan-glow: rgba(34, 211, 238, 0.15);
-  --pink-glow: rgba(244, 114, 182, 0.15);
+  --accent-green: #2D7A4F;
+  --accent-grey: #64748B;
+  --green-glow: rgba(45, 122, 79, 0.12);
+  --grey-glow: rgba(100, 116, 139, 0.12);
   
   color: var(--text-primary);
   min-height: 100vh;
@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: 1.4fr 0.6fr;
   gap: 4rem;
-  padding: 8rem 0 6rem 0;
+  padding: 6rem 0 5rem 0;
   align-items: center;
   border-bottom: 1px solid var(--border-color);
   position: relative;
@@ -34,9 +34,9 @@
 
 .badge {
   display: inline-block;
-  background: rgba(244, 114, 182, 0.1);
-  color: var(--accent-pink);
-  border: 1px solid rgba(244, 114, 182, 0.3);
+  background: rgba(45, 122, 79, 0.08);
+  color: var(--accent-green);
+  border: 1px solid rgba(45, 122, 79, 0.25);
   padding: 0.4rem 0.85rem;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -51,7 +51,7 @@
   line-height: 1.1;
   font-weight: 800;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-pink) 100%);
+  background: linear-gradient(135deg, #1A5C38 0%, #2D7A4F 50%, #4A9068 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
@@ -69,7 +69,7 @@
   width: 100%;
   max-width: 240px;
   height: auto;
-  filter: drop-shadow(0 4px 20px rgba(34, 211, 238, 0.1));
+  filter: drop-shadow(0 4px 20px rgba(45, 122, 79, 0.15));
 }
 
 .ctaGroup {
@@ -89,24 +89,24 @@
 }
 
 .primaryBtn {
-  background-color: var(--accent-cyan);
-  color: #0B1120;
+  background-color: var(--accent-green);
+  color: #FFFFFF;
 }
 
 .primaryBtn:hover {
-  background-color: #67E8F9;
+  background-color: #235f3d;
   transform: translateY(-2px);
 }
 
 .secondaryBtn {
-  background-color: rgba(244, 114, 182, 0.1);
-  color: var(--accent-pink);
-  border: 1px solid rgba(244, 114, 182, 0.3);
+  background-color: transparent;
+  color: var(--accent-grey);
+  border: 1px solid #C0CDD6;
 }
 
 .secondaryBtn:hover {
-  background-color: var(--accent-pink);
-  color: #0B1120;
+  background-color: var(--accent-grey);
+  color: #FFFFFF;
   transform: translateY(-2px);
 }
 
@@ -117,7 +117,7 @@
 .subtext {
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--accent-cyan);
+  color: var(--accent-green);
   letter-spacing: 0.15em;
   text-transform: uppercase;
   display: block;
@@ -128,19 +128,22 @@
   font-size: 2.25rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  color: var(--text-primary);
+  color: #1A5C38;
 }
 
 .sfeosSection {
   padding: 7rem 0;
   border-bottom: 1px solid var(--border-color);
+  background: linear-gradient(180deg, rgba(45, 122, 79, 0.04) 0%, transparent 100%);
+  margin: 0 -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .sfeosCard {
-  background-color: var(--bg-card);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--border-color);
-  border-left: 4px solid var(--accent-cyan);
+  background: linear-gradient(135deg, rgba(45, 122, 79, 0.05) 0%, #FFFFFF 60%);
+  border: 1px solid rgba(45, 122, 79, 0.2);
+  border-left: 4px solid var(--accent-green);
   border-radius: 12px;
   padding: 3rem;
   display: grid;
@@ -148,11 +151,12 @@
   gap: 2rem;
   align-items: center;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 12px rgba(45, 122, 79, 0.08);
 }
 
 .sfeosCard:hover {
-  box-shadow: 0 0 25px var(--cyan-glow);
-  border-color: rgba(34, 211, 238, 0.25);
+  box-shadow: 0 4px 20px rgba(45, 122, 79, 0.12);
+  border-color: rgba(45, 122, 79, 0.4);
 }
 
 .sfeosInfo h3 {
@@ -180,9 +184,9 @@
 }
 
 .partnerBadge {
-  background-color: rgba(34, 211, 238, 0.08);
-  color: var(--accent-cyan);
-  border: 1px solid rgba(34, 211, 238, 0.25);
+  background-color: rgba(45, 122, 79, 0.08);
+  color: var(--accent-green);
+  border: 1px solid rgba(45, 122, 79, 0.25);
   padding: 0.4rem 0.85rem;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -194,13 +198,16 @@
 .featuredSection {
   padding: 7rem 0;
   border-bottom: 1px solid var(--border-color);
+  background: rgba(100, 116, 139, 0.03);
+  margin: 0 -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .featuredCard {
-  background: linear-gradient(135deg, rgba(244, 114, 182, 0.05) 0%, var(--bg-card) 100%);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(244, 114, 182, 0.15);
-  border-right: 4px solid var(--accent-pink);
+  background: linear-gradient(135deg, #FFFFFF 0%, rgba(45, 122, 79, 0.04) 100%);
+  border: 1px solid var(--border-color);
+  border-right: 4px solid var(--accent-green);
   border-radius: 12px;
   padding: 3rem;
   display: grid;
@@ -208,15 +215,16 @@
   gap: 2rem;
   align-items: center;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 
 .featuredCard:hover {
-  box-shadow: 0 0 25px var(--pink-glow);
-  border-color: rgba(244, 114, 182, 0.3);
+  box-shadow: 0 4px 20px rgba(100, 116, 139, 0.15);
+  border-color: rgba(100, 116, 139, 0.4);
 }
 
 .cardTag {
-  color: var(--accent-pink);
+  color: var(--accent-green);
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -245,8 +253,8 @@
 }
 
 .techBadges span {
-  background-color: rgba(148, 163, 184, 0.1);
-  border: 1px solid rgba(148, 163, 184, 0.15);
+  background-color: #EDF1EE;
+  border: 1px solid #C8D5CB;
   padding: 0.35rem 0.75rem;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -256,8 +264,8 @@
 
 .viewRepoBtn {
   background-color: transparent;
-  border: 1px solid var(--accent-cyan);
-  color: var(--accent-cyan);
+  border: 1px solid var(--accent-green);
+  color: var(--accent-green);
   padding: 1rem 1.75rem;
   border-radius: 8px;
   text-decoration: none;
@@ -270,22 +278,26 @@
 }
 
 .viewRepoBtn:hover {
-  background-color: var(--accent-cyan);
-  color: #0B1120;
+  background-color: var(--accent-green);
+  color: #FFFFFF;
 }
 
 .featuredCard .viewRepoBtn {
-  border-color: var(--accent-pink);
-  color: var(--accent-pink);
+  border-color: var(--accent-green);
+  color: var(--accent-green);
 }
 
 .featuredCard .viewRepoBtn:hover {
-  background-color: var(--accent-pink);
-  color: #0B1120;
+  background-color: var(--accent-green);
+  color: #FFFFFF;
 }
 
 .servicesSection {
   padding: 7rem 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(45, 122, 79, 0.04) 100%);
+  margin: 0 -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .servicesGrid {
@@ -302,6 +314,7 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 
 .serviceCard::before {
@@ -311,21 +324,21 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent-cyan), transparent);
-  opacity: 0.4;
+  background: linear-gradient(90deg, var(--accent-green), transparent);
+  opacity: 0.5;
   transition: opacity 0.3s ease;
 }
 
 .serviceCard:hover {
   background-color: var(--bg-card-hover);
-  border-color: rgba(34, 211, 238, 0.25);
+  border-color: rgba(45, 122, 79, 0.3);
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(45, 122, 79, 0.12);
 }
 
 .serviceCard:hover::before {
-  opacity: 0.8;
-  background: linear-gradient(90deg, var(--accent-pink), var(--accent-cyan));
+  opacity: 1;
+  background: linear-gradient(90deg, var(--accent-green), var(--accent-grey));
 }
 
 .numberIndicator {
@@ -333,7 +346,7 @@
   font-size: 1.5rem;
   font-weight: 800;
   color: transparent;
-  -webkit-text-stroke: 1px var(--accent-cyan);
+  -webkit-text-stroke: 1px var(--accent-green);
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -344,7 +357,7 @@
   display: inline-block;
   width: 40px;
   height: 1px;
-  background-color: rgba(5, 213, 250, 0.5);
+  background-color: rgba(45, 122, 79, 0.4);
   margin-left: 1rem;
 }
 
@@ -370,8 +383,7 @@
 .footerText {
   font-size: 0.85rem;
   color: var(--text-secondary);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 968px) {

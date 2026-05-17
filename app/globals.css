@@ -12,8 +12,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #0B1120;
-  color: #F1F5F9;
+  background-color: #F0F4F1;
+  color: #1C2B22;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
