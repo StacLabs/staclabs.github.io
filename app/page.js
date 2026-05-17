@@ -65,12 +65,12 @@ export default function Home() {
             <div className={styles.cardTag}>STAC API Proposal</div>
             <h3>Virtual DAG Catalogs Endpoint Extension</h3>
             <p>
-              A new approach to managing logical catalogs within STAC APIs. Organize, nest, and manage independent catalog structures natively without database duplication or breaking standard root compliance.
+              A new approach to managing logical catalogs within STAC APIs through <strong>virtual tenancy</strong>. Organize, nest, and map independent catalog structures natively using <strong>SKOS</strong> (Simple Knowledge Organization System) taxonomy concepts, all without database duplication or breaking standard root compliance.
             </p>
             <div className={styles.techBadges}>
               <span>stac-fastapi</span>
-              <span>Elasticsearch</span>
-              <span>OpenSearch</span>
+              <span>Virtual Tenancy</span>
+              <span>SKOS</span>
               <span>Poly-Hierarchy</span>
             </div>
           </div>
