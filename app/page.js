@@ -63,9 +63,9 @@ export default function Home() {
         <div className={styles.featuredCard}>
           <div className={styles.cardMain}>
             <div className={styles.cardTag}>STAC API Proposal</div>
-            <h3>Multi-Tenant Catalogs Endpoint Extension</h3>
+            <h3>Virtual DAG Catalogs Endpoint Extension</h3>
             <p>
-              True multi-tenancy for enterprise spatial indices. Safely isolate, recursively nest, and manage independent logical catalogs natively within a single STAC API cluster without database duplication or breaking standard root compliance.
+              A new approach to managing logical catalogs within STAC APIs. Organize, nest, and manage independent catalog structures natively without database duplication or breaking standard root compliance.
             </p>
             <div className={styles.techBadges}>
               <span>stac-fastapi</span>
