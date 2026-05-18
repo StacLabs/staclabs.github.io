@@ -135,9 +135,6 @@
   padding: 7rem 0;
   border-bottom: 1px solid var(--border-color);
   background: linear-gradient(180deg, rgba(45, 122, 79, 0.04) 0%, transparent 100%);
-  margin: 0 -2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .sfeosCard {
@@ -199,9 +196,6 @@
   padding: 7rem 0;
   border-bottom: 1px solid var(--border-color);
   background: rgba(100, 116, 139, 0.03);
-  margin: 0 -2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .featuredCard {
@@ -295,9 +289,6 @@
 .servicesSection {
   padding: 7rem 0;
   background: linear-gradient(180deg, transparent 0%, rgba(45, 122, 79, 0.04) 100%);
-  margin: 0 -2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .servicesGrid {
